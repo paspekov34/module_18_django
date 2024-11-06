@@ -9,7 +9,7 @@ def main_page_def(request):
     basket = 'Корзина'
     context = {'title_mp': title_mp, 'name': name,
                'shop': shop, 'basket': basket}
-    return render(request, 'Main page.html', context)
+    return render(request, 'main_page.html', context)
 
 
 
